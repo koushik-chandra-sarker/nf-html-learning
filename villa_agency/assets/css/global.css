@@ -13,7 +13,6 @@
 
 .container {
   max-width: 1320px;
-  padding: 0 12px;
   margin: 0 auto;
 }
 .header {
@@ -22,6 +21,7 @@
 .header .header-top {
   display: flex;
   justify-content: space-between;
+  padding: 10px 0;
 }
 .header .header-top .ht-left {
   display: flex;
@@ -58,5 +58,62 @@
 
 .header-top .ht-right a:hover {
   background: var(--primary-color);
+  transition: 0.3s;
+}
+
+.header hr{
+  background-color: #eee;
+  height: 1px;
+}
+
+.header .header-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+
+}
+
+.header-bottom .hb-left{
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+.header-bottom .hb-right ul{
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  font-weight: 400;
+  align-items: center;
+
+}
+
+.header-bottom .hb-right ul li:hover{
+  color: var(--primary-color);
+  transition: 0.3s;
+
+}
+
+.header-bottom .hb-right ul .active{
+  color: var(--primary-color);
+}
+
+.header-bottom .hb-right button{
+  background-color: black;
+  color: #eee;
+  border-radius: 21.5px;
+  padding-right: 15px;
+}
+
+
+.header-bottom .hb-right button i{
+  background-color: var(--primary-color) ;
+  padding: 15px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.header-bottom .hb-right button:hover > span{
+  color: var(--primary-color);
   transition: 0.3s;
 }
