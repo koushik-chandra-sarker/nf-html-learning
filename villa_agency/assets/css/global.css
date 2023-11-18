@@ -139,3 +139,30 @@
   color: white;
   font-size: 50px;
 }
+
+.featured-section {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+  padding: 50px;
+}
+
+.left-image {
+  position: relative;
+  /* padding: 50px; */
+
+}
+
+
+.left-image .single-property{
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  text-align: center;
+  position:absolute;
+  left: -40px;
+  bottom: -40px;
+}
