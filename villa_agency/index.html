@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/global.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+
+
+
 </head>
 <body>
     <header class="header">
@@ -59,16 +65,23 @@
         </section>
     </header>
     <div class="banner">
-      <img src="./assets/images/banner-01.jpg"/>
-      <p class="banner-text">
-        Toronto, 
-        <span>
-          Canada
-        </span>
-      </p>
-      <h2>
-        HURRY! GET THE BEST VILLA FOR YOU
-      </h2>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="assets/images/banner-01.jpg" alt="banner1" >
+            </div>
+            <div class="item">
+                <img src="assets/images/banner-02.jpg" alt="banner1" >
+            </div>
+            <div class="item">
+                <img src="assets/images/banner-03.jpg" alt="banner1" >
+            </div>
+        </div>
     </div>
 </body>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+
+<script src="assets/js/custom.js"></script>
 </html>

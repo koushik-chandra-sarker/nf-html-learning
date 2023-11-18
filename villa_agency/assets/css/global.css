@@ -61,81 +61,71 @@
   transition: 0.3s;
 }
 
-.header hr{
+.header hr {
   background-color: #eee;
   height: 1px;
 }
 
-.header .header-bottom{
+.header .header-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-
 }
 
-.header-bottom .hb-left{
+.header-bottom .hb-left {
   letter-spacing: 3px;
   font-size: 18px;
 }
 
-.header-bottom .hb-right ul{
+.header-bottom .hb-right ul {
   list-style-type: none;
   display: flex;
   gap: 50px;
   font-weight: 400;
   align-items: center;
-
 }
 
-.header-bottom .hb-right ul li:hover{
+.header-bottom .hb-right ul li:hover {
   color: var(--primary-color);
   transition: 0.3s;
-
 }
 
-.header-bottom .hb-right ul .active{
+.header-bottom .hb-right ul .active {
   color: var(--primary-color);
 }
 
-.header-bottom .hb-right button{
+.header-bottom .hb-right button {
   background-color: black;
   color: #eee;
   border-radius: 21.5px;
   padding-right: 15px;
 }
 
-
-.header-bottom .hb-right button i{
-  background-color: var(--primary-color) ;
+.header-bottom .hb-right button i {
+  background-color: var(--primary-color);
   padding: 15px;
   border-radius: 50%;
   margin-right: 15px;
 }
 
-.header-bottom .hb-right button:hover > span{
+.header-bottom .hb-right button:hover > span {
   color: var(--primary-color);
   transition: 0.3s;
 }
-
-
-.banner .banner-text{
+.owl-carousel {
+  position: relative;
+}
+.owl-dots .active span {
+  background-color: var(--primary-color) !important;
+}
+.owl-nav {
   position: absolute;
   top: 50%;
-  left: 20%;
-  background-color: white;
-  padding: 10px;
+  display: flex;
 }
-
-.banner .banner-text span{
-  color: var(--primary-color);
-
-}
-
-.banner h2{
-  position: absolute;
-  top: 60%;
-  left: 20%;
-  color: white;
-  font-size: 50px;
+.owl-nav button {
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 50%;
 }
