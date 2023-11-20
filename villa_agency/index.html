@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/global.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+
+
+
 </head>
 <body>
     <header class="header">
@@ -59,82 +65,99 @@
         </section>
     </header>
     <div class="banner">
-      <img src="./assets/images/banner-01.jpg"/>
-      <p class="banner-text">
-        Toronto, 
-        <span>
-          Canada
-        </span>
-      </p>
-      <h2>
-        HURRY! GET THE BEST VILLA FOR YOU
-      </h2>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="assets/images/banner-01.jpg" alt="banner1" >
+            </div>
+            <div class="item">
+                <img src="assets/images/banner-02.jpg" alt="banner1" >
+            </div>
+            <div class="item">
+                <img src="assets/images/banner-03.jpg" alt="banner1" >
+            </div>
+        </div>
     </div>
-    <section>
-      <div class="featured-section container">
-        <div class="left-image">
+    <!-- Feature section: start -->
+    <section class="featured-section container">
+      <!-- left -->
+        <div class="left">
           <img src="./assets/images/featured.jpg"/>
-          <button class="single-property"> 
+          <a href="#" class="icon">
             <img src="./assets/images/featured-icon.png"/>
-          </button>
+          </a>
         </div>
-        <div class="useful-links">
-          <div >
-            <h3>
-              | FEATURED
-            </h3>
-            <h2>
-              BEST APARTMENT & SEA VIEW
-            </h2>
+        <!-- middle -->
+        <div class="middle">
+          <div class="top">
+            <h4>| FEATURED</h4>
+            <h1>
+              BEST APARTMENT <br> & SEA VIEW
+            </h1>
           </div>
-          <div>
-            <a href="#"> Best useful links ?</a>
-            <a href="#"> How does it work ?</a>
-            <a href="#"> Why is Villa Agency the best ?</a>
+          <div class="options">
+            <div class="accordion"> 
+              <h4 class="title">Best useful links ?</h4>
+              <hr>
+              <div class="content">
+                Get  <strong>the best villa</strong>   website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the best free CSS templates in the world. Please tell your friends about it.
+              </div>
+            </div>
+            <div class="accordion"> 
+              <h4 class="title">How does it work ?</h4>
+              <hr>
+              <!-- <div class="content"></div> -->
+            </div>
+            <div class="accordion"> 
+              <h4 class="title">Why is Villa Agency the best ?</h4>
+              <!-- <div class="content"></div> -->
+            </div>
           </div>
         </div>
-  
-        <div class="details">
-          <div>
-            <img src="./assets/images/info-icon-01.png"/>
-            <h2>
-              250 m2
-            </h2>
-            <p>
-              Total Flat Space
-            </p>
-          </div>
-          <div>
-            <img src="./assets/images/info-icon-02.png"/>
-            <h2>
-              Contract
-            </h2>
-            <p>
-              Contract Ready
-            </p>
-          </div>
-          <div>
-            <img src="./assets/images/info-icon-03.png"/>
-            <h2>
-              Payment
-            </h2>
-            <p>
-              Payment Process
-            </p>
-          </div>
-          <div>
-            <img src="./assets/images/info-icon-04.png"/>
-            <h2>
-              Safety
-            </h2>
-            <p>
-              24/7 Under Control
-            </p>
+        <!-- right -->
+        <div class="right">
+          <div class="inner">
+            <div class="box">
+              <img src="./assets/images/info-icon-01.png"/>
+              <div>
+                <h2> 250 m2 </h2>
+                <p> Total Flat Space </p>
+              </div>
+            </div>
+            <hr>
+            <div class="box">
+              <img src="./assets/images/info-icon-02.png"/>
+              <div>
+                <h2> Contract </h2>
+                <p> Contract Ready </p>
+              </div>
+              
+            </div>
+            <hr>
+            <div class="box">
+              <img src="./assets/images/info-icon-03.png"/>
+              <div>
+                <h2>  Payment </h2>
+                <p> Payment Process </p>
+              </div>
+              
+            </div>
+            <hr>
+            <div class="box">
+              <img src="./assets/images/info-icon-04.png"/>
+              <div>
+                <h2> Safety </h2>
+                <p> 24/7 Under Control </p>
+              </div>
+              
+            </div>
           </div>
         </div>
 
       </div>
     </section>
+    <!-- Feature section: end -->
+    <!-- <div class="video-view">
+      <div>
 
     <!-- Video view section start -->
     <div class="video-view">
@@ -147,6 +170,7 @@
           Get Closer View & <br/>
           Different Feeling
         </h3>
+      </div> -->
       </div>
       <div class="video-frame">
         <img src="./assets/images/video-frame.jpg">
@@ -191,4 +215,10 @@
     <!-- Video view section end -->
 
 </body>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+
+<script src="assets/js/custom.js"></script>
 </html>
