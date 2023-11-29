@@ -296,7 +296,6 @@ hr {
   line-height: 28px;
 }
 
-
 /* Video view section end */
 
 /* Best Deal Section Start */
@@ -307,11 +306,11 @@ hr {
 
 .best-deal .container {
   max-width: 1320px;
-  padding: 50px;
+  padding: 50px 0;
 }
 
-.best-deal .container .deal-header h4{
-  color: var(--primary-color);  
+.best-deal .container .deal-header h4 {
+  color: var(--primary-color);
 }
 
 .best-deal .deal-top .top-left h1 {
@@ -321,21 +320,26 @@ hr {
 .best-deal .deal-top .top-left {
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
 }
 
 .best-deal .deal-top .top-right button {
   background-color: black;
   color: white;
-  padding: 10px 20px;
+  padding: 15px 25px;
   margin: 0 10px;
   border-radius: 5px;
+  font-size: 12pt;
+  font-weight: 600;
+}
+.best-deal .deal-top .top-right .active-btn {
+  background-color: var(--primary-color);
 }
 
 .best-deal .deal-bottom {
   display: grid;
   gap: 40px;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 2fr 1fr;
   margin-top: 30px;
 }
 
@@ -350,7 +354,12 @@ hr {
   padding: 35px;
   border-radius: 20px;
 }
-
+.deal-bottom .deal-left div {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
 .best-deal .deal-bottom hr {
   background-color: #eee;
   height: 1px;
@@ -362,10 +371,14 @@ hr {
 }
 
 .best-deal .deal-bottom .deal-right h3 {
-  color: #333; 
+  color: #333;
   margin-bottom: 15px;
 }
-
+.best-deal .deal-bottom .deal-right p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.6rem;
+}
 .best-deal .deal-bottom .deal-right button {
   background-color: black;
   color: #eee;
@@ -391,36 +404,30 @@ hr {
 /* Properties Section start */
 
 .properties {
-  padding: 40px;
+  margin-top: 100px;
 }
 
-.properties .property-top p{
+.properties .property-top h5 {
   color: var(--primary-color);
   font-weight: 600;
   font-size: smaller;
   text-align: center;
-  margin-top: 70px;
+  font-size: 14pt;
 }
 
-.properties .property-top h4{
-color: black;
-font-size: 40px;
-letter-spacing: 2px;
-text-align: center;
-font-size: 30px;
-}
-
-.properties .listing {
-  max-width: 1200px;
-  margin: 60px;
-  padding: 0 15px;
+.properties .property-top h4 {
+  color: black;
+  font-size: 30pt;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .properties .listing {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 30px;
-  padding: 50px;
+  margin: 50px 0;
 }
 
 .listing .listing-item {
@@ -434,27 +441,32 @@ font-size: 30px;
   width: 100%;
   height: auto;
   margin-bottom: 20px;
-  border-radius: 10px; 
-}
-
-.listing .listing-item h3 {
-  color: var(--primary-color)
-}
-
-.listing .listing-item .specifications p {
-  width: 110px;
-  padding: 5px 12px;
-  background-color: #ffeee9;
-  /* display: flex;
-  gap: 10px;
-  position: relative; */
   border-radius: 10px;
 }
 
-.listing .listing-item ul {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 20px;
+.listing .listing-item h3 {
+  color: var(--primary-color);
+}
+
+.listing .listing-item .specifications {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listing .listing-item .specifications p {
+  padding: 4px 12px;
+  background-color: #fbd9cf;
+  border-radius: 5px;
+}
+.listing .listing-item .title {
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 14pt;
+}
+.listing .listing-item .spec-item {
+  display: flex;
+  gap: 20px;
 }
 
 .listing .listing-item hr {
@@ -467,27 +479,25 @@ font-size: 30px;
   background-color: black;
   color: white;
   padding: 10px 20px;
-  border-radius: 20px; 
+  border-radius: 20px;
 }
 
 /* Properties Section end */
 
 /* CONTACT US SECTION START */
 
-.contact-us .contact-top p{
+.contact-us .contact-top p {
   color: var(--primary-color);
   font-weight: 600;
   font-size: smaller;
   text-align: center;
   padding: 50px 0 20px 0;
-
 }
 
-.contact-us .contact-top h4{
-color: white;
-font-size: 40px;
-letter-spacing: 2px;
-text-align: center;
-font-size: 30px;
+.contact-us .contact-top h4 {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 30px;
 }
-
