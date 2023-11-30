@@ -486,6 +486,10 @@ hr {
 
 /* CONTACT US SECTION START */
 
+.contact-us {
+  background-color: #f9f9f9;
+}
+
 .contact-us .contact-top p {
   color: var(--primary-color);
   font-weight: 600;
@@ -494,10 +498,89 @@ hr {
   padding: 50px 0 20px 0;
 }
 
-.contact-us .contact-top h4 {
+.contact-us .contact-top h2 {
   color: white;
   font-size: 40px;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 30px;
 }
+
+.contact-us .contact-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -250px;
+}
+
+.contact-us .contact-map iframe {
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.contact-us .bottom-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us .bottom-cards .left-card,
+.contact-us .right-card {
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 20px 50px 20px 20px;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.contact-us .bottom-right form {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 35px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.contact-us .bottom-right form label {
+  margin-top: 10px;
+}
+
+.contact-us .bottom-right form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background-color: rgb(246, 246, 246) ;
+  border-radius: 20px;
+}
+
+.contact-us .bottom-right form button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-top: 15px;
+  width: 150px;
+}
+
+.contact-us .bottom-left,
+.contact-us .bottom-right {
+  margin-bottom: 50px;
+}
+
+/* CONTACT US SECTION End */
+
+
+/* Footer section Start */
+
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100px;
+}
+
+/* Footer section End */
