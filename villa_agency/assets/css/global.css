@@ -141,8 +141,8 @@ hr {
 }
 
 .featured-section .left {
-  /* position: relative; */
-  /* padding: 50px; */
+  position: relative;
+  padding: 50px;
   display: flex;
   flex-direction: column;
 }
@@ -321,7 +321,7 @@ hr {
   margin-bottom: 20px;
 }
 
-.best-deal .deal-top .top-left {
+.best-deal .deal-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
