@@ -6,6 +6,7 @@
   }
   .header .header-top {
     padding: 20px;
+    gap: 10px;
   }
 
   .header .header-bottom {
@@ -107,11 +108,16 @@
     padding: 10px 22px;
     font-size: 10pt;
   }
+  
   .best-deal .deal-bottom {
     display: grid;
     gap: 40px;
     grid-template-columns: 1fr;
     margin: 30px;
+  }
+
+  .best-deal .deal-bottom .deal-left{
+    width: 100%;
   }
 
   .contact-us .contact-bottom {
@@ -196,7 +202,7 @@
     margin: 30px;
   }
   .best-deal .deal-bottom .deal-left{
-    width: 500px;
+    width: 100%;
   }
   .contact-us .contact-bottom {
     display: grid;
