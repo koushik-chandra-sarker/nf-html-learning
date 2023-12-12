@@ -262,7 +262,7 @@ hr {
   margin-bottom: 5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 30px;
 }
 .fun-facts .item {
   display: inline-flex;
@@ -534,11 +534,15 @@ hr {
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
-  padding: 20px 50px 20px 20px;
+  padding: 20px;
   gap: 20px;
   border-radius: 10px;
 }
-
+.contact-us .bottom-cards .left-card img,
+.contact-us .right-card img {
+  width: 50px;
+  height: 50px;
+}
 .contact-us .bottom-right form {
   display: flex;
   flex-direction: column;
